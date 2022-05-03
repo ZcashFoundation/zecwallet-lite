@@ -11,7 +11,7 @@ export default class Utils {
   static V2_LIGHTWALLETD: string = "https://lwdv2.zecwallet.co:1443";
 
   // v3 LightwalletD
-  static V3_LIGHTWALLETD: string = "https://lwdv3.zecwallet.co";
+  static V3_LIGHTWALLETD: string = "http://127.0.0.1:9067";
 
   static isSapling(addr: string): boolean {
     if (!addr) return false;
